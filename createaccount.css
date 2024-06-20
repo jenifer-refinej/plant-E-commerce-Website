@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gajraj+One&family=Inter:wght@400;600;700&family=Kumbh+Sans:wght@100..900&family=Lato:wght@400;700;900&family=Lexend+Deca:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&family=Oswald:wght@400;500&family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* font-family: "Montserrat", sans-serif; */
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: #e9f5e4;
+    width: 100%;
+    height: auto;
+}
+.navbar-nav {
+    margin-left: 25%;
+    font-family: "Poppins", sans-serif;
+    color: #8AA192;
+}
+.nav-link {
+    color: #748D7E;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.logo {
+    color: #486757;
+    font-weight: bold;
+}
+#navbarSupportedContent .nav-link:hover {
+    background-color: #315343;
+    color: #F0F7ED;
+    /* border-bottom: 2px solid #315343; */
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px #8AA192;
+}
+.header-icons i {
+    color: #315343;
+    margin: 10px 15px;
+}
+.indoor li,
+.indoor a,
+.outdoor li,
+.outdoor a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.breadcrumb-hlder{
+    margin-top: 8%;
+    color: white;
+}
+.row{
+  
+   margin: 10px;
+}
+
+.login-container{
+    height: 300px;
+}
+.login-container,.register-container{
+border: 2px solid #dce0de;
+padding: 4% 3%;  
+border-radius: 10px;
+}
+.login-container input,.register-container input{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #dce0de;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+.login-btn, .register-btn{
+    background-color: #315343;
+    color: white;
+    padding: 8px 10px;
+}
+.btn:hover{
+    border-color: #315343;
+}
+@media (min-width:375px) and (max-width:990px) {
+    .breadcrumb-hlder{
+        margin: 15%;
+    }
+}

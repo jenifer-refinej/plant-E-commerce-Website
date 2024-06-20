@@ -1,0 +1,103 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+}.container-fluid img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%,-45%);
+    text-align: center;
+}
+.banner-text{
+    color:#fff ;
+}
+.banner-content h1{
+    color: #2a5c40;
+    text-shadow: -1px -1px 0 #479b6a,  
+    1px -1px 0 #479b6a,
+    -1px 1px 0 #479b6a,
+    1px 1px 0 #479b6a;
+}
+.banner-content button,.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    border-color: transparent;
+    background-color: #2a5c40;
+    font-weight: bold;
+}
+#aboutus{
+    color: black;
+}
+.about-text p{
+    font-size: 12px;
+}
+.logo-text{
+    color: #2a5c40;
+    font-size: 18px;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.card{
+    background-color: #5C9876;
+    color: #fff;
+    box-shadow: 5px 5px 5px #2a5c40 ;
+    margin: 10px;
+}
+.card:hover{
+    transform:scale(0.9);
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-holder{
+    flex-wrap: wrap;
+}
+.card-body i{
+    font-size: 30px;  
+    
+}
+.card-body h5{
+    margin-top: 5px;
+}
+.card-body p{
+    font-size: 12px;
+}
+/* trending plant styles */
+.plant-varity{
+    position: relative;
+}
+.plant-varity img{
+     width: 320px;
+    height: 70vh;
+    transition: filter 0.3 ease;
+}
+.plant-varity img:hover{
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+.indoor-text{
+   
+   position: absolute;
+   top: 40%;
+   left: 10%;
+   color: white;
+   transform: translate(-10%,-60%);
+   font-size: 30px;
+   font-weight: bold;
+  
+}
