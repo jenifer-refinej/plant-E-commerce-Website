@@ -11,7 +11,7 @@
    
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .header-icons i:hover{
  color: #4f8069;
@@ -37,6 +37,7 @@
      margin-top: 5%;
      width: 100%;
      height: auto;
+     flex-wrap:wrap;
 }
 .card{
     width: 15rem;
@@ -72,6 +73,7 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 5px;
+   
 }
 .review-card{
     border: 1px solid rgb(232, 232, 232);
@@ -100,3 +102,20 @@
     font-size: 13px;
     font-weight: bold;
 }
+@media (min-width:320px) and (max-width:1000px){
+    .cards{
+width:100%;
+margin-top:0px;
+    }
+    .review-container{
+        flex-wrap:wrap;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .col-two-newsletter {
+        height: auto;
+        margin-left: -25%;
+        width:100%;
+    }
+}
+

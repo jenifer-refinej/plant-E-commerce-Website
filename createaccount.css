@@ -84,8 +84,8 @@ border-radius: 10px;
 .btn:hover{
     border-color: #315343;
 }
-@media (min-width:375px) and (max-width:990px) {
+@media (min-width:320px) and (max-width:990px) {
     .breadcrumb-hlder{
-        margin: 15%;
+        margin: 20%;
     }
 }

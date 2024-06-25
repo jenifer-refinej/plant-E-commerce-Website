@@ -15,6 +15,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .hero-page-content{
     position: absolute;
@@ -113,4 +114,17 @@ button:focus:not(:focus-visible){
 }
 .accordion-button:focus{
     box-shadow: none;
+}
+.col-lg-8{
+    margin-top:0 !important;
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+@media(min-width:320px) and (max-width:789px){
+    .container-fluid img{
+        height:60vh;
+    }
+    .col-lg-8 img{
+        width:100%;
+    }
 }

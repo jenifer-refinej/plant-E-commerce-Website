@@ -66,7 +66,7 @@ body {
 
 h1 {
     color: #486757;
-    font-size: 56px;
+    font-size: var(56px - 20px);
     font-weight: bold;
 }
 
@@ -222,7 +222,7 @@ h1 {
 
 .dark-green-card {
     background-color: #E6F0E2;
-    width: 80%;
+    width: 100%;
     height: 80%;
     display: flex;
     padding: 6% 5%;
@@ -233,6 +233,7 @@ h1 {
     border-radius: 15px;
     justify-content: center;
     position: relative;
+    
 }
 .animationgreenCard{
     animation: greencardanime 2s ease-in;
@@ -289,19 +290,20 @@ h1 {
 }
 
 .card-container {
-    margin: 5% 10%;
+   margin:0px 10px;
     font-family: "Poppins", sans-serif;
     align-items: center;
-
+  justify-content:center;
 }
 
 .card-one {
     width: 50%;
     padding: 10px;
-
+   
     height: 450px;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    justify-content:center;
 
 }
 
@@ -449,9 +451,9 @@ h1 {
 }
 .col-two-newsletter{
     margin-top: 5%;
-    margin-left: -10%;
-    border: 1px solid #315343;
-    width: 100%;
+    margin-left: -15%;
+   
+    width: 50%;
     height: 30vh;
     padding: 15px 25px;
 }
@@ -543,7 +545,7 @@ footer{
 
 
 
-@media (min-width:375px) and (max-width:990px) {
+@media (min-width:320px) and (max-width:990px) {
     .social-links {
         margin: 0px;
         width: 22%;
@@ -570,11 +572,16 @@ footer{
     }
 }
 
-@media (min-width:375px) and (max-width:600px) {
-    .offerh1 {
-        font-size: 35px;
-    }
+@media (min-width:320px) and (max-width:600px) {
+   .shopnow-two{
+    padding: 10px 70px !important;
+   }
+   .freedeliver-container{
+    margin:0px;
+   padding:10px;
+    padding-bottom:10%;
 
+}
     .heropage {
         display: flex;
         justify-content: center;
@@ -606,7 +613,7 @@ footer{
    }
 }
 
-@media (min-width:375px) and (max-width:890px) {
+@media (min-width:320px) and (max-width:890px) {
     .content-container {
         justify-content: center;
         align-items: center;
@@ -643,15 +650,14 @@ footer{
     }
 }
 
-@media (min-width:375px) and (max-width:500px) {
+@media (min-width:320px) and (max-width:500px) {
     .leaf img {
         height: 40px;
     }
 
     .card-one {
-        margin-right: 10%;
-        margin-top: 2px;
-
+       margin:5% 10%;
+       width:90%;
     }
 
     .card-container {
@@ -668,7 +674,7 @@ footer{
 
 }
 
-@media (min-width:375px) and (max-width:500px) {
+@media (min-width:320px) and (max-width:500px) {
     .card-one {
         width: 100%;
     }
