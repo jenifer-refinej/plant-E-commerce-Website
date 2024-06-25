@@ -113,6 +113,7 @@ h1 {
 .col-two img {
     height: 550px;
     width: 100%;
+   
 }
 .col-two img{
     animation: landingpageanime 2s ease-in;
@@ -604,10 +605,7 @@ footer{
         height: 200px;
         margin-left: -15%;
     }
-    .col-two-newsletter{
-        height: 40vh;
-        margin-left: -25%;
-    }
+   
    .col-two-newsletter .btn{
  margin-top: 10px;
    }
@@ -619,7 +617,11 @@ footer{
         align-items: center;
         margin: 0 !important;
     }
-
+    .col-two-newsletter{
+        height: auto;
+        width:100%;
+        margin-left: -15%;
+    }
     .content-news {
         width: 100%;
     }
@@ -628,6 +630,9 @@ footer{
 }
 .new-container{
     margin-left: 0 !important;
+}
+.col-two img{
+    padding-bottom: 40%;
 }
 }
 @media (min-width:575px) and (max-width:2000px) {
