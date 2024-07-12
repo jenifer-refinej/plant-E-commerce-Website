@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/jpg" href="images/logo.jpg">
     <title>Spider Plants</title>
+    <!-- <img src="https://png.pngtree.com/template/20191024/ourmid/pngtree-flower-pot-and-plant-logo-growth-vector-logo-image_322939.jpg" alt=""> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -17,7 +19,9 @@
     <header>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid mt-3">
-                <a class="navbar-brand logo ms-5" href="#">PLANTOO</a>
+                <a class="navbar-brand logo mt-2" href="#">
+                    <img src="https://banner2.cleanpng.com/20180411/eoq/kisspng-leaf-plant-logo-root-plant-5ace75f3a9ada5.454160361523480051695.jpg" alt="logo"height="50px">
+                    PLANTO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -25,9 +29,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Categories</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="/index.html">Home</a>
                         </li>
@@ -37,12 +39,15 @@
                         <li class="nav-item">
                             <a class="nav-link " href="/blog.html">Blog</a>
                         </li>
-                       
+
                         <li class="nav-item">
-                            <a class="nav-link " href="about.html">About</a>
+                            <a class="nav-link " href="../about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/createaccount.html">Create Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Join Community</a>
                         </li>
                     </ul>
                     <div class="header-icons">
@@ -57,15 +62,33 @@
     <main>
         <div class="container product-item-container mt-5">
             <div class="row ">
-                <div class="col-lg-6 col-md-6 col-sm-12  mt-5">
-                    <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRqlrHaZXK7mjlbfmvP_196t-3fYxqgx5hEYc4sYXqQaJph9p0X-exAuSJdWInFXbJa"
-                        alt="" width="100%" height="100%">
+                <div class="col-lg-6 col-md-6 col-sm-12 mt-5 ">
+                    <div class="product-image-holder">
+                        <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRqlrHaZXK7mjlbfmvP_196t-3fYxqgx5hEYc4sYXqQaJph9p0X-exAuSJdWInFXbJa"
+                            width="100%" height="auto" alt="" class="product-image-default-shown">
+                    </div>
+                    <div class="small-variation-images d-flex mt-5">
+                        <div class="img">
+                            <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRqlrHaZXK7mjlbfmvP_196t-3fYxqgx5hEYc4sYXqQaJph9p0X-exAuSJdWInFXbJa"
+                            width="20%" height="auto" 
+                            class="default-image">
+
+
+                            <img src="https://img.freepik.com/free-photo/fittonia-plant-white-pot-wooden-cabinet_53876-123022.jpg?w=826&t=st=1719578079~exp=1719578679~hmac=7f00303a4cf0665a63428a8be4d7f15286c89f212b0257387f998ec5df55fa82"
+                                width="20%" height="auto" class="spiderimg-one">
+
+
+                            <img src="https://img.freepik.com/free-photo/cozy-hobby-growing-indoor-plants-home_185193-108769.jpg?w=826&t=st=1719567364~exp=1719567964~hmac=edbb743848092687ea5d989b1547dae2accd73151ffe8df0676cd215ba008cff"
+                                alt="" width="20%" height="auto" class="spiderimg-two">
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 cards ">
-                    <div class="card-body ">
+                    <div class="card-body mt-5">
                         <h6 class="card-title fs-5">Spider plant (Nivee Plants)</h6><span
                             class="badge text-bg-primary my-3">Low-Light</span>
-                        <h5 class="price "><strike style="color: gray;">$45.00</strike> <span class="fw-bold">$35.00</span></h5>
+                        <h5 class="price "><strike style="color: gray;">$45.00</strike> <span
+                                class="fw-bold">$35.00</span></h5>
                         <p class="card-text fs-6 my-4"> It's delicate foliage that sticks out like delicate little
                             pointy leaves
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laboriosam minus culpa?
@@ -83,8 +106,27 @@
                         <div class="d-flex buttons-shop">
                             <a href="#" class="btn buy-now">Buy Now</a>
                         </div>
+
+
+                    </div>
+                    <div class="instructions mt-3">
+                        <h6>Instructions</h6>
+                        <ol class="instruction-list">
+                            <li> <span class="fw-bold">Light: </span>Keep in low to medium indirect light.</li>
+                            <li><span class="fw-bold">Water:</span> Water when the top inch of soil is dry. Avoid
+                                overwatering.</li>
+                            <li><span class="fw-bold">Temperature:</span> Ideal range is 60-75°F (15-24°C).</li>
+                            <li><span class="fw-bold">Humidity: </span>Average household humidity is fine.</li>
+                            <li><span class="fw-bold">Soil:</span> Use well-draining potting mix.</li>
+                            <li><span class="fw-bold">Fertilizer:</span> Feed with diluted liquid fertilizer every 2-4
+                                weeks in spring and summer.</li>
+                            <li><span class="fw-bold">Maintenance:</span> Trim any brown tips or dead leaves. Repot
+                                every 1-2 years</li>
+                        </ol>
                     </div>
                 </div>
+
+
             </div>
         </div>
 
@@ -111,9 +153,9 @@
                         <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
                     </div>
                     <div class="review-para">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
                             illum veritatis qui, eum reiciendis, asperiores ipsam aliquam quos blanditiis minus labore
-                            </p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -138,12 +180,13 @@
                         <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
                     </div>
                     <div class="review-para">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
                             illum veritatis qui, eum reiciendis, asperiores ipsam aliquam quos blanditiis minus labore
-                            </p>
+                        </p>
                     </div>
                 </div>
-            </div><div class="container">
+            </div>
+            <div class="container">
                 <div class="review-card d-flex">
                     <div class="d-flex">
                         <img src="https://img.freepik.com/free-photo/lady-with-brown-eyes-is-smiling-red-wall_197531-16958.jpg?w=826&t=st=1717757373~exp=1717757973~hmac=8e056e9d895261ed6983ffad143e8727bac23e126bb67ad526e819a643c478e8"
@@ -164,12 +207,13 @@
                         <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
                     </div>
                     <div class="review-para">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
                             illum veritatis qui, eum reiciendis, asperiores ipsam aliquam quos blanditiis minus labore
-                            </p>
+                        </p>
                     </div>
                 </div>
-            </div><div class="container">
+            </div>
+            <div class="container">
                 <div class="review-card d-flex">
                     <div class="d-flex">
                         <img src="https://img.freepik.com/free-photo/stylish-woman-wearing-yellow-bandana_273609-13345.jpg?w=826&t=st=1717757411~exp=1717758011~hmac=1c41eea914feef6f96ae6ccc1e68a55c5f536e68be0ee540651f8c15b248a202"
@@ -190,18 +234,18 @@
                         <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
                     </div>
                     <div class="review-para">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sit! Aspernatur
                             illum veritatis qui, eum reiciendis, asperiores ipsam aliquam quos blanditiis minus labore
-                            </p>
+                        </p>
                     </div>
                 </div>
             </div>
-           
+
         </div>
         <div class="review-more-btn mt-5">
             <button class="btn">View More</button>
         </div>
-      
+
         <div class="container-fluid mt-5">
             <div class="container-fluid card-container-holder m-4 ">
                 <div class="card cardOne">
@@ -345,150 +389,114 @@
 
         <section class="testimony">
             <div class="container ms-5">
-              <div class="row ms-5">
-                <div class="col-lg col-md-12 col-sm-12 d-flex">
-                  <img
-                    src="https://masonhome.in/cdn/shop/files/Untitled_design_5_a5c6bed6-058c-4e35-8e8d-96a15fbddfb2_1024x1024.png?v=1714980818"
-                    height="350px" alt="">
+                <div class="row ms-5">
+                    <div class="col-lg col-md-12 col-sm-12 d-flex">
+                        <img src="https://masonhome.in/cdn/shop/files/Untitled_design_5_a5c6bed6-058c-4e35-8e8d-96a15fbddfb2_1024x1024.png?v=1714980818"
+                            height="350px" alt="">
+                    </div>
+                    <div class="col-lg col-md-12 col-sm-12  col-two-newsletter">
+                        <h2 class="Order">Get 20% Off For Your Next Order</h2>
+                        <p>Subscribe to the our store mailing list to receive updates and new arrivials,special offers
+                            and other
+                            discount information</p>
+                        <input type="email" name="email" id="email" placeholder="please enter your email..">
+                        <button class="btn">Subscribe</button>
+                    </div>
                 </div>
-                <div class="col-lg col-md-12 col-sm-12  col-two-newsletter">
-                  <h2 class="Order">Get 20% Off For Your Next Order</h2>
-                  <p>Subscribe to the our store mailing list to receive updates and new arrivials,special offers and other
-                    discount information</p>
-                  <input type="email" name="email" id="email" placeholder="please enter your email..">
-                  <button class="btn">Subscribe</button>
-                </div>
-              </div>
             </div>
-          </section>
-          <section class="about container mt-5">
+        </section>
+        <section class="about container mt-5">
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
-                <h5 class="green-text">About Us</h5>
-                <h3>PLANTO SHOP</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aliquam tempore dicta cumque aliquid
-                  explicabo eligendi laudantium magni natus. Neque expedita minima, praesentium aliquam velit exercitationem
-                  quam cum non qui?</p>
-                <div class="social-icons d-flex">
-                  <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
-                  <a href="https://www.twitter.com"> <i class="fa-brands fa-square-x-twitter"></i></a>
-                  <a href="https://www.pinterest.com/"> <i class="fa-brands fa-pinterest"></i></a>
-                  <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
-                  <a href="https://www.threads.net/?hl=en"> <i class="fa-brands fa-threads"></i></a>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <h5 class="green-text">About Us</h5>
+                    <h3>PLANTO SHOP</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aliquam tempore dicta cumque
+                        aliquid
+                        explicabo eligendi laudantium magni natus. Neque expedita minima, praesentium aliquam velit
+                        exercitationem
+                        quam cum non qui?</p>
+                    <div class="social-icons d-flex">
+                        <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com"> <i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.pinterest.com/"> <i class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.threads.net/?hl=en"> <i class="fa-brands fa-threads"></i></a>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
-                <h5 class="green-text">Our Insta Feed</h5>
-                <img src="https://masonhome.in/cdn/shop/products/IMG_9015.jpg?v=1595775929&width=1500" width="70%"
-                  height="250px" alt="">
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
-                <h5 class="green-text">Join Our Newsletter Now</h5>
-                <p>Sign up for newsletter & promotions</p>
-                <input type="text" name="email" id="email" class="email-inputfied" placeholder="please enter your email...">
-                <button class="btn subscribe-btn">Subscribe</button>
-              </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <h5 class="green-text">Our Insta Feed</h5>
+                    <img src="https://masonhome.in/cdn/shop/products/IMG_9015.jpg?v=1595775929&width=1500" width="70%"
+                        height="250px" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <h5 class="green-text">Join Our Newsletter Now</h5>
+                    <p>Sign up for newsletter & promotions</p>
+                    <input type="text" name="email" id="email" class="email-inputfied"
+                        placeholder="please enter your email...">
+                    <button class="btn subscribe-btn">Subscribe</button>
+                </div>
             </div>
-    
-          </section>
+
+        </section>
     </main>
 
 
 
-
-    <footer>
-        <div class="container footer-contact-container p-5 mt-4">
-            <div class="row">
-                <div class="col">
-                    <h5>Contact Us</h5>
-                    <p>
-                        <i class="fa-solid fa-location-dot" style="color: #315343;"></i>
-                        Address
-                    </p>
-                    <p>Xyzz,xyzz street,India</p>
-                    <p>
-                        <i class="fa-solid fa-envelope" style="color: #315343;"></i>
-                        Email
-                    </p>
-                    <p>plantoo@gmail.com</p>
-                    <p>
-                        <i class="fa-solid fa-square-phone" style="color: #315343;"></i>
-                        Contact no
-                    </p>
-                    <p>91+879979979</p>
-                </div>
-                <div class="col menu">
-                    <h5>MAIN MENU</h5>
-                    <ul>
-                        <a href="#">
-                            <li>Home</li>
-                        </a>
-                        <a href="#">
-                            <li>Catalog</li>
-                        </a>
-                        <a href="#">
-                            <li>Specials</li>
-                        </a>
-                        <a href="#">
-                            <li>Products</li>
-                        </a>
-                        <a href="#">
-                            <li>Pages</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col menu">
-                    <h5>MAIN MENU</h5>
-                    <ul>
-                        <a href="#">
-                            <li>Home</li>
-                        </a>
-                        <a href="#">
-                            <li>Catalog</li>
-                        </a>
-                        <a href="#">
-                            <li>Specials</li>
-                        </a>
-                        <a href="#">
-                            <li>Products</li>
-                        </a>
-                        <a href="#">
-                            <li>Pages</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="col menu">
-                    <h5>MAIN MENU</h5>
-                    <ul>
-                        <a href="#">
-                            <li>Home</li>
-                        </a>
-                        <a href="#">
-                            <li>Catalog</li>
-                        </a>
-                        <a href="#">
-                            <li>Specials</li>
-                        </a>
-                        <a href="#">
-                            <li>Products</li>
-                        </a>
-                        <a href="#">
-                            <li>Pages</li>
-                        </a>
-                    </ul>
-                </div>
-
+    <footer id="footer">
+        <div class="container footercontainer p-5 ">
+          <div class="row">
+            <div class="col">
+              <h5>Contact Us</h5>
+              <p>
+                <i class="fa-solid fa-location-dot" style="color: #315343;"></i>
+                Address
+              </p>
+              <p>Xyzz street,India</p>
+              <p>
+                <i class="fa-solid fa-envelope" style="color: #315343;"></i>
+                Email
+              </p>
+              <p>plantoo@gmail.com</p>
+              <p>
+                <i class="fa-solid fa-square-phone" style="color: #315343;"></i>
+                Contact no
+              </p>
+              <p>91+879979979</p>
             </div>
+            <div class="col menu">
+              <h5>MAIN MENU</h5>
+              <ul>
+                <li>Home</li>
+                <li>Catalog</li>
+                <li>Specials</li>
+                <li>Products</li>
+                <li>Pages</li>
+              </ul>
+            </div>
+            <div class="col menu social-link-footer">
+              <h5>SOCIAL MEDIA</h5>
+              <ul>
+               <a href="#"><li>Instagram</li></a>
+               <a href="#"><li>Facebook</li></a>
+               <a href="#"><li>Twitter</li></a>
+               <a href="#"><li>Whatsapp</li></a>
+               
+              </ul>
+            </div>
+           
+    
+          </div>
         </div>
         <div class="rights d-flex">
-            <h5>All rights are &copy;reserved</h5>
+          <h5>All rights are &copy;reserved</h5>
         </div>
-    </footer>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1e0f6f9635.js" crossorigin="anonymous"></script>
-
+    <script src="productspider.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>

@@ -71,3 +71,14 @@ window.addEventListener("scroll", () => {
         greenCard.classList.add("animationgreenCard");
     }
 });
+
+//footer animation
+const footer = document.getElementById("footer")
+const footerRow = document.querySelector(".footercontainer")
+window.addEventListener("scroll",()=>{
+    let rect = footer.getBoundingClientRect();
+    let visible =rect.top < window.innerHeight && rect.bottom >=0;
+    if(visible){
+        footerRow.classList.add("animationfooter")
+    }
+})

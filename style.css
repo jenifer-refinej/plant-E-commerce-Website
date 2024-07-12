@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 25%;
+    margin-left: 15%;
     font-family: "Poppins", sans-serif;
     color: #8AA192;
 }
@@ -32,7 +32,10 @@ body {
     font-weight: 400;
     margin-right: 20px;
 }
-
+.navbar-toggler-icon{
+    background-image:url(https://static.thenounproject.com/png/5761122-200.png);
+ 
+}
 .logo {
     color: #486757;
     font-weight: bold;
@@ -116,14 +119,14 @@ h1 {
    
 }
 .col-two img{
-    animation: landingpageanime 2s ease-in;
+    animation: landingpageanime 1s ease;
 }
 .content-container{
-    animation: landingpagecontentanime 2s ease-in;
+    animation: landingpagecontentanime 3s ease;
 }
 @keyframes landingpageanime {
     0%{
-        transform: translateX(100%);
+        transform: translateX(-10%);
     }
     100%{
         transform: translateX(0%);
@@ -131,7 +134,7 @@ h1 {
 }
 @keyframes landingpagecontentanime {
     0%{
-        transform:translateX(-50%);
+        transform:translateX(-10%);
     }
     100%{
         transform: translateX(0%);
@@ -156,7 +159,19 @@ h1 {
 .product-list-container {
     display: flex;
     justify-content: space-evenly;
-
+}
+.product-img{
+    animation:dealofthedayimg 3s linear;
+}
+@keyframes dealofthedayimg {
+ from{
+    
+    scale: 0.7;
+ }
+ to{
+   
+    scale: 1;
+ }
 }
 
 .product-list-container img {
@@ -536,7 +551,22 @@ footer{
     padding: 5px;
     color: #292929;
 }
-
+.animationfooter{
+    animation: footeranimation 3s ease;
+    overflow: hidden;
+}
+@keyframes footeranimation {
+    0%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.social-link-footer a{
+ text-decoration: none;
+ color: white;
+}
 
 
 
